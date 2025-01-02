@@ -1,5 +1,5 @@
 <?php
-// login.php
+// index.php
 session_start();
 
 if (isset($_POST['login'])) {
