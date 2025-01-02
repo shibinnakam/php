@@ -125,7 +125,7 @@ $conn->close();
                 <input type="password" name="password" id="password" required><br><br>
                 
                 <button type="submit">Register</button>
- <p>If you register then? <a href="logins.php">login</a></p>
+ <p>If you register then? <a href="index.php">login</a></p>
 
             </form>
         </div>
