@@ -5,7 +5,7 @@ session_start();
 // Check if the user is logged in
 if (!isset($_SESSION['username'])) {
     // If not logged in, redirect to login page
-    header('Location: logins.php');
+    header('Location: index.php');
     exit();
 }
 
@@ -16,7 +16,7 @@ if (isset($_POST['logout'])) {
     // Logout the user
     session_unset();
     session_destroy();
-    header('Location: logins.php');
+    header('Location: index.php');
     exit();
 }
 ?>
